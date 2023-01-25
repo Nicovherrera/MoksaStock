@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <!-- Site made with Mobirise Website Builder v5.6.11, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.6.11, mobirise.com">
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:src" content="">
+  <meta property="og:image" content="">
+  <meta name="twitter:title" content="Tela">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="/assets/images/logomoksa-96x83.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Tela</title>
+  <link rel="stylesheet" href="/assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="/assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="/assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="/assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="/assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="/assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu2 cid-tan8yypxCy" once="menu" id="menu2-x">
+    <!-- NABVAR -->
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="index.html">
+                        <img src="/assets/images/logomoksa-96x83.png" alt="Mobirise Website Builder" style="height: 3rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-success display-7" href="/">Moksa Stock</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- MENU --> 
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-success display-4" href="/logout" th:if="${session.usuariosession != null}">Cerrar Sesión</a></li>
+                    <li class="nav-item"><a class="nav-link link text-success display-4" href="/logueo" th:if="${session.usuariosession == null}">Iniciar Sesión</a></li>
+                    <li class="nav-item"><a class="nav-link link text-success display-4" href="/registro" th:if="${session.usuariosession == null}">Registrarse</a>
+                    </li></ul>
+                
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-danger display-4" href="/prendas" th:if="${session.usuariosession != null}">Cargar Prendas</a></div>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section data-bs-version="5.1" class="features1 cid-tan4n525R8" id="features2-e">
+
+    
+<!-- OPCIONES DE CARGA -->
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a href="/tela#carga"><span class="mbr-iconfont mobi-mbri-layers mobi-mbri" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span></a>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                            <strong>Telas</strong></h4><!-- TELA -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a href="/avios"><span class="mbr-iconfont mobi-mbri-setting mobi-mbri" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span></a>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                            <strong>Avios</strong></h4><!-- AVIO -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a href="/corte"><span class="mbr-iconfont mobi-mbri-drag-n-drop-2 mobi-mbri" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span></a>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                            <strong>Corte</strong></h4> <!-- CORTE -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a href="/confeccion"><span class="mbr-iconfont mobi-mbri-website-theme mobi-mbri" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span></a>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                            <strong>Confección</strong></h4> <!-- CONFECCION -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<br>
+
+<!-- Section LISTADO DE TELAS-->
+        <section class="bg-light" id="lista">
+        <div class="container px-4">
+           <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Fecha</th>
+      <th scope="col">Tela (Nombre)</th>
+      <th scope="col">Cant Comprada</th>
+      <th scope="col">Precio</th>
+      <th scope="col">Precio por metro</th>
+      <th scope="col">Inflación</th>
+      <th scope="col">Stock</th>
+      <th scope="col">Acciones</th>
+    </tr>
+  </thead>
+  <tbody th:each="n:${nombreTelas}">
+    <tr>
+      <th scope="row" th:text="${n.fechaAlta}"></th>
+      <td th:text="${n.nombreTela}"></td>
+      <td th:text="${n.cantidadCom}+' mts'"></td>
+      <td th:text="'$ '+${#numbers.formatDecimal((__${n.precioT}__),1,'POINT',2,'COMMA')}"></td> 
+      <td th:text="'$ '+${#numbers.formatDecimal((__${n.precioT/n.cantidadCom}__),1,'POINT',2,'COMMA')}"></td> <!-- calculo precio unitario, pero no persiste en BD -->
+      <td th:text="${#numbers.formatDecimal((__${n.inflacion}__),1,'POINT',2,'COMMA')}+' %'"></td> 
+      <td th:text="${#numbers.formatDecimal((__${n.stockT}__),1,'POINT',2,'COMMA')}+' mts'"></td> 
+      <!-- Editar --> <td><a th:href="@{/tela#lista}"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4z"/>
+</svg></a>
+<!-- Eliminar <a th:href="@{/eliminarTela/__${n.id}__}" onclick="return confirm ('Esta seguro que desae eliminar el registro?')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+  <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+  <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+		</svg></a> --> 
+
+		</td>
+     </tr>
+    
+  </tbody>
+</table>
+</div>
+      </section>
+
+
+
+
+<section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;">
+<a hidden="hidden" href="https://mobiri.se/2201504" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;">
+<img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a>
+<p style="margin: 0;text-align: center;" class="display-7"></p><a style="z-index:1" href="https://mobirise.com/web-page-maker.html"></a>
+</section>
+
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>
+  
+  
+  
+</body>
+</html>
